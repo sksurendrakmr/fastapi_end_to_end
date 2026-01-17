@@ -90,7 +90,7 @@ def get_about():
     return HTMLResponse(content=html_content)
 
 
-@app.get("/home")
+@app.get("/home", name="home", response_class=HTMLResponse)
 def get_home(request: Request):
     """
     Endpoint that renders the home page using a Jinja2 template.
