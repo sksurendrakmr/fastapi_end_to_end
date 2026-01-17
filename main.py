@@ -5,7 +5,11 @@ from fastapi.responses import HTMLResponse
 This app object will be used to define the routes.
 FastAPI uses decorators to define routes.
 '''
-app = FastAPI()
+app = FastAPI(
+#     docs_url=None, # Keep Swagger UI accessible
+#     redoc_url=None, # Disable ReDoc
+#     openapi_url=None # Enable OpenAPI schema for docs to work
+)
 
 # Sample posts data
 posts = [

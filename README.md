@@ -13,6 +13,7 @@ The `[standard]` extra includes commonly-used dependencies:
 - **python-multipart** - Form data and file upload handling
 - **email-validator** - Email validation support
 - **fastapi-cli** - Used to run our app
+- **jinja2** - Template engine for rendering HTML responses
 
 This gives you a complete setup without needing to install additional packages manually.
 
